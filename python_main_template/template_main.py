@@ -7,7 +7,7 @@ SW name:
 This software evaluates ...
 
 Library dependencies:
-ex: psycopg2, pytz, iem_stat (requires numpy), iem_utilities
+ex: psycopg2, pytz
 """
 
 
@@ -26,10 +26,7 @@ from datetime import datetime, date, timedelta
 # <editor-fold desc="region  specific i-EM importing">
 import utils
 import config
-import db_interface
 import example_func
-from iem_plotlib.iem_style import Init_iem_style
-from iem_plotlib.iem_style import clear_iem_style
 # </editor-fold desc="region general importing">
 
 
@@ -56,8 +53,6 @@ def main(args_main):
         log.info('\n#########      Program Started      ##########')
 
         log.info("\n-----------BEGIN LOGGIN BASIC PROGRAM INFO-----------")
-        log.info('Setting iem_plot_style')
-        Init_iem_style()
 
         # print the host info (the computer running the script)
         log.info("hostname: {0}".format(socket.gethostname()))
@@ -126,7 +121,6 @@ def main(args_main):
         #
 
         log.info('\nResetting plot_style to matplotlib default')
-        clear_iem_style()
 
     # end try
 
