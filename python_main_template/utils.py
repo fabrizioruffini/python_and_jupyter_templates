@@ -3,7 +3,7 @@ import pip
 import config
 import platform
 from datetime import datetime
-from iem_utilities.mailing import sendemail, sendemail_with_attachment
+from mailing import sendemail, sendemail_with_attachment
 
 #additional functions
 # Error log
