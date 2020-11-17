@@ -19,7 +19,7 @@ debug_address = ['someone@somewhere.com']
 
 #<editor-fold desc="region Database configuration parameters">
 # Database configuration parameters
-dba_host = some_host'
+dba_host = 'some_host'
 dba_name = 'some_dba'
 dba_port = 5432
 dba_user = 'some_user'
