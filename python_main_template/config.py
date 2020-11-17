@@ -12,8 +12,8 @@ smtp_username = 'some_username'
 smtp_password = 'some_pwd'
 mail_sender = 'some_sender'
 delivery_address = ['someone@somewhere.com']
-reports_address = someone@somewhere.com']
-debug_address = someone@somewhere.com']
+reports_address = [someone@somewhere.com']
+debug_address = [someone@somewhere.com']
 #</editor-fold  "region Mail configuration parameters ">
 
 
