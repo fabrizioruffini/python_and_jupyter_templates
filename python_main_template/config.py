@@ -7,23 +7,23 @@ from datetime import datetime
 
 
 #  <editor-fold desc="region Mail configuration parameters">
-smtp_server = 'mail.vianova.it:587'
-smtp_username = 'no-reply@i-em.eu'
-smtp_password = 'i-EM2014'
-mail_sender = 'no-reply@i-em.eu'
-delivery_address = ['fabrizio.ruffini@i-em.eu']
-reports_address = ['fabrizio.ruffini@i-em.eu']
-debug_address = ['fabrizio.ruffini@i-em.eu']
+smtp_server = 'some_server'
+smtp_username = 'some_username'
+smtp_password = 'some_pwd'
+mail_sender = 'some_sender'
+delivery_address = ['someone@somewhere.com']
+reports_address = someone@somewhere.com']
+debug_address = someone@somewhere.com']
 #</editor-fold  "region Mail configuration parameters ">
 
 
 #<editor-fold desc="region Database configuration parameters">
 # Database configuration parameters
-dba_host = 'srv-cloud01.i-em.eu'
-dba_name = 'dba'
+dba_host = some_host'
+dba_name = 'some_dba'
 dba_port = 5432
-dba_user = 'readuser'
-dba_password = '32happysun32'
+dba_user = 'some_user'
+dba_password = 'some_pwd'
 
 # Connection string to database containing plants info
 dba_connection_string = "host = '{0}' dbname = '{1}' port = '{2}' user = '{3}' password = '{4}' application_name='Pacman'"\
